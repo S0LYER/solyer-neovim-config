@@ -15,7 +15,7 @@ local dashboard = require("alpha.themes.dashboard")
 --- Frame
 local top_border = {
   type = "text",
-  val = "┌──────────────────────────────────────────────────────────────┐",
+  val = "╔══════════════════════════════════════════════════════════════╗",
   opts = {
     hl = "AlphaButtons",
     position = "center",
@@ -24,7 +24,7 @@ local top_border = {
 
 local bottom_border = {
   type = "text",
-  val = "└──────────────────────────────────────────────────────────────┘",
+  val = "╚══════════════════════════════════════════════════════════════╝",
   opts = {
     hl = "AlphaButtons",
     position = "center",
@@ -54,12 +54,12 @@ dashboard.section.header.opts.hl = "AlphaHeader"
 
 -- Menu buttons
 dashboard.section.buttons.val = {
-  dashboard.button("n", "📄  New file", "<cmd>ene<CR>"),
-  dashboard.button("r", "🕒  Recent files", "<cmd>browse oldfiles<CR>"),
-  dashboard.button("i", "📥  Install plugins", "<cmd>PlugInstall<CR>"),
-  dashboard.button("u", "🔄  Update plugins", "<cmd>PlugUpdate<CR>"),
-  dashboard.button("s", "📊  Plugin status", "<cmd>PlugStatus<CR>"),
-  dashboard.button("q", "❌  Exit", "<cmd>qa<CR>"),
+  dashboard.button("n", "   New file", "<cmd>ene<CR>"),
+  dashboard.button("r", "   Recent files", "<cmd>browse oldfiles<CR>"),
+  dashboard.button("i", "   Install plugins", "<cmd>PlugInstall<CR>"),
+  dashboard.button("u", " 󰚰  Update plugins", "<cmd>PlugUpdate<CR>"),
+  dashboard.button("s", "   Plugin status", "<cmd>PlugStatus<CR>"),
+  dashboard.button("q", " 󰈆  Exit", "<cmd>qa<CR>"),
 
 }
 
