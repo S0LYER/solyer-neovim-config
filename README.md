@@ -1,4 +1,4 @@
-# Minimal amoled millennium theme
+# Solyer's neovim config
 
 > [!IMPORTANT]
-> This theme is in development now
+> This config is in development now
