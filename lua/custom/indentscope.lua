@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 indentscope.setup({
-  symbol = "│", 
+  symbol = "│",
   options = {
     try_as_border = true,
   },
